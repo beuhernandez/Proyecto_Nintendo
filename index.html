@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Nintendo</title>
+
+    <style>
+      #tarjetitas{
+        transition: all ease-out 0.2; 
+      }
+      #tarjetitas:hover {
+        transform: scale(1.05);
+      }
+       
+      #isabelle {
+        background: url(./Assets/Imagenes/bg-04.png);
+        background-color: rgb(250, 229, 201);
+        background-size: 40px;
+      }
+
+      #footer {
+        background: url(./Assets/Imagenes/bg-04.png);
+        background-color: rgb(243,192, 201);
+        background-size: 50px;
+      }
+
+
+
+
+
+
+
+
+
+    </style>
+
+
+    <!--Barra de navegacion inicio-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+      <div class="container-fluid">
+        <img src="./Assets/Imagenes/logo.jpg" alt="Nintendo" width="200px">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Registrate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Ingresar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+</head>
+
+<body>
+
+<!--Carrusel de imagenes-->
+
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Assets/Imagenes/slide01.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Assets/Imagenes/slide02.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Assets/Imagenes/slide03.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+
+<!--ribbon-->
+
+
+
+
+
+<!-- Tarjetitas de personajes -->
+
+<div id="tarjetitas">
+<div class="row">
+  <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-5">
+    <div class="cards">
+  <img src="./Assets/Imagenes/card01.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  </div>
+
+</div>
+
+  <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-5">
+    <div class="cards">
+  <img src="./Assets/Imagenes/card02.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  </div>
+</div>
+
+  <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-5">
+    <div class="cards">
+  <img src="./Assets/Imagenes/card03.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!--Tarjetitas Isabelle-->
+
+<div id="isabelle">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h3 class="text-center py-5 h1">Isabelle y sus amigos en Play Nintendo</h3>
+    </div>
+  </div>
+
+  <div class="row justify-content-center align-items-center">
+    <div class="col-3 d-none d-lg-block">
+      <img src="./Assets/Imagenes/isabelle.png"  class="w-100" alt="">
+    </div>
+    <div class="col-9">
+      <div class="row">
+        <div class="col-6">
+          <div class="card mb-3" style="max-width: 540px;"> <!--Empieza la tarteja-->
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./Assets/Imagenes/ph-01.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div> <!--Termina la tarjeta-->
+        </div>
+
+        <div class="col-6">
+          <div class="card mb-3" style="max-width: 540px;"> <!--Empieza la tarteja-->
+            <div class="row g-0">
+             
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <img src="./Assets/Imagenes/ph-03.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+            </div>
+          </div> <!--Termina la tarjeta-->
+        </div>
+
+          <div class="col-6">
+          <div class="card mb-3" style="max-width: 540px;"> <!--Empieza la tarteja-->
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./Assets/Imagenes/ph-02.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div> <!--Termina la tarjeta-->
+        </div>
+
+          <div class="col-6">
+          <div class="card mb-3" style="max-width: 540px;"> <!--Empieza la tarteja-->
+            <div class="row g-0">
+             
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <img src="./Assets/Imagenes/ph-04.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+            </div>
+          </div> <!--Termina la tarjeta-->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!--Footer-->
+
+<div id="footer">
+<footer class="p-5">
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col text-center">
+         <a href=""><button class="btn btn-warning btn-lg rounded-pill p-2 w-50">Apoyo a Clientes</button></a>
+      </div>
+    </div>
+
+  <div class="row p-5">
+    <div class="col text-center">
+      <p>Para los sistemas Nintendo 3DS, utilice un Control Parental para restringir el modo 3D para los niños menores de 6 años.</p>
+      <p>Se requiere acceso a Internet para funciones en línea.
+        para obtener más información, ve a support.nintendo.com</p>
+      <p>Juegos y accesorios de Amiibo se venden por separado. Las cifras que no muestran 
+        el tamaño real. la contabilidad y funcionalidad de Amiibo puede variar segun el juego. 
+        Visite amiibo.com para obtener detalles especificos sobre cómo funciona Amiibo.</p>
+      <p>2001-2020 Nintendo. Las propiedades de Nintendo son marcas comerciales de Nintendo</p>  
+
+    </div>
+  </div>
+  </div>
+</div>
+
+</footer>
+
+
+</body>
+</html>
